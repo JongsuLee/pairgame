@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  background-image: url('images/game-title.jpg');
+  background-position: center;
+  background-size: cover;
+  font-family: "Itim", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.itim-regular {
+  font-family: "Itim", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 32px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  text-decoration: underline;
+}
